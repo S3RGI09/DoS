@@ -7,7 +7,7 @@ El script funciona de la siguiente manera:
 
 ```server_ip = 'IP victima'```: En esta linea **se tiene que añadir la IP/DNS victima manualmente**, por eso para manejar bien el script se necesita conocimientos basicos de Python y editores de texto como Nano o Vim.
 
-```num_packets = 1000000```: En esta linea **se tiene que añadir la cantidad de paquetes que se quiere enviar al host victima**, por eso para manejar bien el script se necesita conocimientos basicos de Python y editores de texto como Nano o Vim.
+```num_packets = Nº de paquetes```: En esta linea **se tiene que añadir la cantidad de paquetes que se quiere enviar al host victima**, por eso para manejar bien el script se necesita conocimientos basicos de Python y editores de texto como Nano o Vim.
 
 ```packets = IP(dst=server_ip)```: Esta linea sirve para crear los paquetes con los que vas a atacar a la victima.
 
